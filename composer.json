@@ -1,0 +1,24 @@
+{
+    "name": "nc4/comp-nc-cake4-examples",
+    "description": "CompNcCake4Examples plugin for NC4",
+    "type": "nc4-plugin",
+    "license": "FreeBSD",
+    "require": {
+        "php": ">=7.2",
+        "nc4/nc4-core": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 || ^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "CompNcCake4Examples\\": "src/",
+            "CompNcCake4Examples\\Test\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
