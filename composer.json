@@ -1,6 +1,6 @@
 {
-    "name": "nc4/comp-nc-cake4-examples",
-    "description": "CompNcCake4Examples plugin for NC4",
+    "name": "nc4/comp-cake4-snake-samples",
+    "description": "CompCake4SnakeSamples plugin for NC4",
     "type": "nc4-plugin",
     "license": "FreeBSD",
     "require": {
@@ -12,8 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "CompNcCake4Examples\\": "src/",
-            "CompNcCake4Examples\\Test\\": "tests/"
+            "CompCake4SnakeSamples\\": "src/",
+            "CompCake4SnakeSamples\\Test\\": "tests/"
         }
     },
     "autoload-dev": {
